@@ -1,0 +1,10 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/root1/42/c++/c01/ex00'
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o main.o main.cpp
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o newZombie.o newZombie.cpp
+ 
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o randomChump.o randomChump.cpp
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o Zombie.o Zombie.cpp
+g++ -Wall -Wextra -Werror -std=c++98 -pedantic main.o newZombie.o randomChump.o Zombie.o -o zombie
+make: Leaving directory `/Users/root1/42/c++/c01/ex00'
+ 
