@@ -1,0 +1,335 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Thu Jun 23 11:24:13 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 11)
+OBJ = $(SRC:.cpp=.o)
+# makefile (from `Makefile', line 7)
+SRC = main.cpp phonebook.cpp 
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /Users/root1/.nvm/versions/node/v16.13.2/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/root1/42/c++/c00/ex01
+# makefile
+SHELL = /bin/sh
+# environment
+FZF_DEFAULT_COMMAND = rg --files --no-ignore --hidden --follow --glob "!.git/*"
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 5)
+CFLAGS = -Wall -Wextra -Werror
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+FNM_NODE_DIST_MIRROR = https://nodejs.org/dist
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/ct/212g4cqs6qj3qmczfxn7xtb80000gn/T/vscode-ipc-97f743b7-9a2a-4a2c-a4b0-62de9351468f.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/chris/.miniconda/bin:/Users/root1/.local/bin:/Users/root1/.nvm/versions/node/v16.13.2/bin:/Users/root1/Library/Caches/fnm_multishells/21259_1655949247350/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/root1/go-dev/bin:/usr/local/opt/go/libexec/bin:/usr/local/opt/fzf/bin
+# environment
+FNM_DIR = /Users/root1/Library/Application Support/fnm
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+GOPATH = /Users/root1/go-dev
+# environment
+NVM_BIN = /Users/root1/.nvm/versions/node/v16.13.2/bin
+# environment
+FNM_LOGLEVEL = info
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8N7sfuPqRM/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/root1/42/c++/c00/ex01
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/root1
+# default
+MAKEFILEPATH := /Applications/Xcode-beta.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/root1/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+FNM_MULTISHELL_PATH = /Users/root1/Library/Caches/fnm_multishells/21259_1655949247350
+# environment
+LOGNAME = root1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = -q
+# environment
+ZSH = /Users/root1/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 3)
+CC = clang++
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = root1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+GOROOT = /usr/local/opt/go/libexec
+# makefile (from `Makefile', line 1)
+NAME = phonebook
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode-beta.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/ct/212g4cqs6qj3qmczfxn7xtb80000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/root1/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /Users/root1/.nvm
+# environment
+FNM_VERSION_FILE_STRATEGY = local
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.34831438.34831444
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0:0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+XDG_CONFIG_HOME = /Users/root1/.config
+# environment
+EDITOR = nvim
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 9)
+HEADER = phonebook.hpp
+# environment
+NVIMRC = ~/.config/nvim/init.vim
+# automatic
+^F = $(notdir $^)
+# environment
+FNM_ARCH = x64
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CLICOLOR = 1
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 21248
+# variable set hash-table stats:
+# Load=90/1024=9%, Rehash=0, Collisions=5/118=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 35088703): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: phonebook
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: all re clean fclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 16:15:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	@echo "\033[0;31mRemoving executable..."
+	rm -f $(NAME)
+	@echo "\033[0m"
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 21):
+	@echo "\033[0;32mGenerating obj..."
+	$(CC) $(CFLAGS) -c $<
+	@echo "\033[0m"
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 26):
+	@echo "\033[0;31mCleaning..."
+	rm -f $(OBJ)
+	@echo "\033[0m"
+	
+
+# Not a target:
+main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 16:15:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+phonebook: main.o phonebook.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 16:15:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 16):
+	@echo "\033[0;33mCompiling..."
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+	@echo "\033[0m"
+	
+
+# Not a target:
+phonebook.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 16:15:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+ 
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Thu Jun 23 11:24:13 2022
+
+ 

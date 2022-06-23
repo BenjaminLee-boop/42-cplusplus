@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/root1/42/c++/c00'
+mkdir -p objects/
+echo "Compiling: megaphone.cpp"
+clang++ -Wall -Wextra -Werror -c megaphone.cpp -o objects/megaphone.o
+clang++ -Wall -Wextra -Werror -o megaphone objects/megaphone.o
+make: Leaving directory `/Users/root1/42/c++/c00'
+ 

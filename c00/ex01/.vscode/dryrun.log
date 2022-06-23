@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/root1/42/c++/c00/ex01'
+echo "\033[0;32mGenerating obj..."
+clang++ -Wall -Wextra -Werror -c main.cpp
+echo "\033[0m"
+echo "\033[0;32mGenerating obj..."
+clang++ -Wall -Wextra -Werror -c phonebook.cpp
+echo "\033[0m"
+echo "\033[0;33mCompiling..."
+clang++ -Wall -Wextra -Werror main.o phonebook.o -o phonebook
+echo "\033[0m"
+make: Leaving directory `/Users/root1/42/c++/c00/ex01'
+ 
