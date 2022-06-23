@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/root1/42/c++/c01/ex01'
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o Zombie.o Zombie.cpp
+make: Leaving directory `/Users/root1/42/c++/c01/ex01'
+ 
+make: *** No rule to make target `main.o', needed by `zombie'.
+make: *** No rule to make target `ZombieHorde.o', needed by `zombie'.
+
