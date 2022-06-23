@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/root1/42/c++/c01/ex04'
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o main.o main.cpp
+g++ -Wall -Wextra -Werror -std=c++98 -pedantic main.o -o replace
+make: Leaving directory `/Users/root1/42/c++/c01/ex04'
+ 
