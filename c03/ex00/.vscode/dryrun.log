@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/root1/42/c++/c03/ex00'
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o ClapTrap.o ClapTrap.cpp
+c++  -Wall -Wextra -Werror -std=c++98 -pedantic  -c -o main.o main.cpp
+g++ -Wall -Wextra -Werror -std=c++98 -pedantic ClapTrap.o main.o -o clapTrap
+make: Leaving directory `/Users/root1/42/c++/c03/ex00'
+ 

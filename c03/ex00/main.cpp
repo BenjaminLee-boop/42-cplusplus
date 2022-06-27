@@ -1,19 +1,16 @@
-#include "FragTrap.hpp"
+#include "ClapTrap.hpp"
 
-int main(void)
+int main()
 {
-    FragTrap frag("CU5TM-BT");
+    ClapTrap clap("T-800");
 
-    frag.meleeAttack("skag");
-    frag.rangedAttack("badass");
+    clap.attack("Kyle Reese");
+    clap.takeDamage(7);
+    clap.beRepaired(39);
 
-    frag.takeDamage(60);
-    frag.takeDamage(60);
+    clap.attack("Sarah Connor");
+    clap.takeDamage(100);
+    clap.beRepaired(42);
 
-    frag.beRepaired(60);
-    frag.beRepaired(60);
-
-    frag.vaulthunter_dot_exe("Jack");
-    frag.vaulthunter_dot_exe("Jack");
-    frag.vaulthunter_dot_exe("Jack");
+    return (0);
 }
